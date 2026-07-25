@@ -1,4 +1,13 @@
-# 🛡️ QUALITY ASSURANCE PROCEDURE (QA PROCEDURE) - v0.3
+# 🛡️ QUALITY ASSURANCE PROCEDURE (QA PROCEDURE)
+
+
+## Document Control & Revision History
+
+| Version | Date | Author | Change Description                             |
+|:--------| :--- | :--- |:-----------------------------------------------|
+| 0.1.3   | 2026-07-25 | QA Specialist | Changed "version" structure; added new section |
+
+---
 
 ## 1. PURPOSE & SCOPE
 This procedure defines the standards, stages, and responsibilities within the Quality Assurance (QA) process throughout the Software Development Life Cycle (SDLC). The primary objective is to minimize defects, enhance customer satisfaction, and ensure compliance with ISO 9001:2015 quality management principles. This procedure applies to all software development projects within the organization.
