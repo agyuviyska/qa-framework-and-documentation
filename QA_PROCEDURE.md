@@ -3,9 +3,9 @@
 
 ## Document Control & Revision History
 
-| Version | Date | Author | Change Description                             |
-|:--------| :--- | :--- |:-----------------------------------------------|
-| 0.1.3   | 2026-07-25 | QA Specialist | Changed "version" structure; added new section |
+| Version | Date       | Author        | Change Description                             |
+|:--------|:-----------|:--------------|:-----------------------------------------------|
+| 0.1.4   | 25-07-2026 | An. Gyuviyska | Changed "version" structure; added new section |
 
 ---
 
