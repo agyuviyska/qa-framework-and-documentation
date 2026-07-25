@@ -20,7 +20,7 @@ This procedure defines the standards, stages, and responsibilities within the Qu
 1. **Requirement Analysis:** The QA team reviews specifications, epics, or User Stories to identify logical gaps, inconsistencies, or lack of testability before core development begins (Static Testing).
 2. **Test Design & Automation:** Designing detailed Test Cases within the chosen Test Management Tool. In parallel, automated test scripts (Smoke & Regression suites) are developed for critical functionalities.
 3. **Test Execution:** Performing Smoke testing (build verification), followed by comprehensive functional, integration, API, and UI testing. For every new build or release candidate, Regression testing is executed to guarantee the stability of existing features.
-4. **Defect Management:** Upon identifying a discrepancy, a Bug Report is logged. Defects follow a strict lifecycle (`New` ➔ `In Progress` ➔ `Ready for QA` ➔ `Verified` ➔ `Closed`) and are classified by Severity and Priority.
+4. **Defect Management:** Upon identifying a discrepancy, a Bug Report is logged. Defects follow a strict lifecycle (`New` ➔ `In Progress` ➔ `Ready for QA` ➔ `In testing` ➔ `Verified` ➔ `Closed`) and are classified by Severity and Priority.
 5. **Test Evaluation & Sign-Off:** Analyzing test execution results, assessing residual risks, and delivering an official release readiness report (QA Sign-Off).
 
 ---
