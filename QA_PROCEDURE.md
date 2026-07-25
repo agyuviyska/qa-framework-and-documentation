@@ -5,7 +5,7 @@
 
 | Version | Date       | Author        | Change Description                             |
 |:--------|:-----------|:--------------|:-----------------------------------------------|
-| 0.1.4   | 25-07-2026 | An. Gyuviyska | Changed "version" structure; added new section |
+| 1.1.4   | 25-07-2026 | An. Gyuviyska | Changed "version" structure; added new section |
 
 ---
 
@@ -16,10 +16,10 @@ This procedure defines the standards, stages, and responsibilities within the Qu
 
 ## 2. ROLES & RESPONSIBILITIES
 
-| Role | Key Responsibilities |
-| :--- | :--- |
-| **QA Lead / Senior QA** | Manages the overall QA strategy, defines quality metrics, coordinates the QA team, approves test environments, and provides the final QA Sign-Off prior to production releases. |
-| **QA Engineer** | Develops manual test cases and checklists, writes and maintains automated test scripts (API/UI), executes test sessions, registers defects (Bug Reports), and verifies bug fixes. |
+| Role                                | Key Responsibilities                                                                                                                                                                             |
+|:------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **QA Lead / Senior QA**             | Manages the overall QA strategy, defines quality metrics, coordinates the QA team, approves test environments, and provides the final QA Sign-Off prior to production releases.                  |
+| **QA Engineer**                     | Develops manual test cases and checklists, writes and maintains automated test scripts (API/UI), executes test sessions, registers defects (Bug Reports), and verifies bug fixes.                |
 | **Product Owner / Project Manager** | Accepts the defined testing scope, defines clear Acceptance Criteria, prioritizes defects within the project backlog, and assumes business ownership when releasing with known residual defects. |
 
 ---
@@ -36,9 +36,9 @@ This procedure defines the standards, stages, and responsibilities within the Qu
 
 ## 4. QUALITY KEY PERFORMANCE INDICATORS (KPIs)
 
-| Metric (KPI) | Target | Description |
-| :--- | :---: | :--- |
-| **Requirement Coverage** | `> 95%` | The percentage of business requirements and Acceptance Criteria directly covered by valid test scenarios. |
-| **Defect Reopen Rate** | `< 5%` | The percentage of defects that must be reopened due to an unsuccessful or incomplete fix by the development team. |
-| **Critical Escape Rate** | `0%` | The number of critical or blocking defects missed by the QA team and discovered by end-users in the Production environment. |
+| Metric (KPI)             | Target  | Description                                                                                                                              |
+|:-------------------------|:-------:|:-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Requirement Coverage** | `> 95%` | The percentage of business requirements and Acceptance Criteria directly covered by valid test scenarios.                                |
+| **Defect Reopen Rate**   | `< 5%`  | The percentage of defects that must be reopened due to an unsuccessful or incomplete fix by the development team.                        |
+| **Critical Escape Rate** |  `0%`   | The number of critical or blocking defects missed by the QA team and discovered by end-users in the Production environment.              |
 | **Automation Pass Rate** | `> 98%` | The percentage of successfully passed automated test cases within the CI/CD pipeline (excluding infrastructure or network fluctuations). |

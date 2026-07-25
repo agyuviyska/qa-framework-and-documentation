@@ -1,5 +1,14 @@
 #QA Metrics & Key Performance Indicators (KPIs)
 
+
+## Document Control & Revision History
+
+| Version | Date       | Author        | Change Description                             |
+|:--------|:-----------|:--------------|:-----------------------------------------------|
+| 1.0.2   | 25-07-2026 | An. Gyuviyska | Changed "version" structure; added new section |
+
+---
+
 ## 1. Overview
 This document defines the core Quality Assurance metrics, their mathematical formula formulas, and the calculation methodologies used to assess product quality and test process efficiency throughout the Software Development Life Cycle (SDLC).
 
