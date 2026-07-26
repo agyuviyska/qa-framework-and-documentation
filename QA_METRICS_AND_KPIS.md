@@ -21,8 +21,8 @@ Measures the percentage of defined business requirements or Acceptance Criteria 
 
 * Formula:
 
-$$ 
-Requirement Coverage (\%) = \frac{Executed Requirements}{Total Planned Requirements} \times 100 
+$$
+\text{Requirement Coverage (\%)} = \left( \frac{\text{Executed Requirements}}{\text{Total Planned Requirements}} \right) \times 100
 $$
 
 * Target: `> 95%`
