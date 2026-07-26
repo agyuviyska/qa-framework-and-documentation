@@ -20,7 +20,10 @@ This document defines the core Quality Assurance metrics, their mathematical for
 Measures the percentage of defined business requirements or Acceptance Criteria covered by executed test scenarios.
 
 * Formula:
-  $$ Requirement Coverage (\%) = \frac{Executed Requirements}{Total Planned Requirements} \times 100 $$
+
+$$ 
+Requirement Coverage (\%) = \frac{Executed Requirements}{Total Planned Requirements} \times 100 
+$$
 
 * Target: `> 95%`
 * Example:
