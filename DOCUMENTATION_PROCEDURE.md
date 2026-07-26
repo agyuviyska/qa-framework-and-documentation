@@ -4,7 +4,7 @@
 
 | Version | Date       | Author        | Change Description |
 |:--------|:-----------|:--------------|:-------------------|
-| 1.0.3   | 25.07.2026 | An. Gyuviyska | Added new section  |
+| 1.0.4   | 25.07.2026 | An. Gyuviyska | Added new section  |
 
 ---
 
@@ -66,4 +66,16 @@ This procedure applies to all project documentation created within the repositor
 
 - **Review Lead Time:** Average time a document stays in *In Review* before PR approval.
 - **Accuracy Rate:** Absence of outdated references or missing steps in published artifacts.
-- **Version Alignment:** 100% adherence to Semantic Versioning (`Major.Minor.Patch`) across all repository documents.
+- **Version Alignment:** 100% adherence to Semantic Versioning (`Major.Minor.Patch`) across all repository documents.(see [Section 7](#7-document-versioning-guidelines-semantic-versioning)).
+
+## 7. Document Versioning Guidelines (Semantic Versioning)
+
+All documentation artifacts must strictly follow **Semantic Versioning (SemVer)** using the `MAJOR.MINOR.PATCH` format (e.g., `1.0.0`).
+
+| Version Type | Format  | When to Increment                                                                               | Example           |
+|:-------------|:--------|:------------------------------------------------------------------------------------------------|:------------------|
+| **MAJOR**    | `X.0.0` | Complete overhaul of the document, process restructuring, or breaking changes.                  | `1.0.0` ➔ `2.0.0` |
+| **MINOR**    | `1.X.0` | Addition of new sections, new workflow statuses, or guidelines without removing existing logic. | `1.0.0` ➔ `1.1.0` |
+| **PATCH**    | `1.0.X` | Small fixes: typo corrections, translation of comments/text, layout fixes, or link updates.     | `1.0.0` ➔ `1.0.1` |
+
+> **Rule:** Every published document starts at `1.0.0`. Small edits (like translating comments to English) should bump the **PATCH** version (e.g., to `1.0.1`).
