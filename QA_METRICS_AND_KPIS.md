@@ -22,14 +22,13 @@ Measures the percentage of defined business requirements or Acceptance Criteria 
 * Formula:
   $$ Requirement Coverage (\%) = \frac{Executed Requirements}{Total Planned Requirements} \times 100 $$
 
-
 * Target: `> 95%`
 * Example:
   If a sprint includes 10 User Stories and test cases were executed for 9 of them:
   $$\left( \frac{9}{10} \right) \times 100 = 90\% \quad \text{(Below Target)}$$
 ---
 
-### 2.Defect Reopen Rate (DRR)
+### 2. Defect Reopen Rate (DRR)
 Tracks the stability of developer fixes by measuring how many resolved defects failed QA verification.
 
 * Formula:
