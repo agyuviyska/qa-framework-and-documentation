@@ -20,16 +20,13 @@ This document defines the core Quality Assurance metrics, their mathematical for
 Measures the percentage of defined business requirements or Acceptance Criteria covered by executed test scenarios.
 
 * Formula:
----
-`(Executed Requirements / Total Planned Requirements) * 100`
----
-  $$
-  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-  $$
----
+  $$ Requirement Coverage (\%) = \frac{Executed Requirements}{Total Planned Requirements} \times 100 $$
+
+
 * Target: `> 95%`
 * Example:
-
+  If a sprint includes 10 User Stories and test cases were executed for 9 of them:
+  $$\left( \frac{9}{10} \right) \times 100 = 90\% \quad \text{(Below Target)}$$
 ---
 
 ### 2.Defect Reopen Rate (DRR)
