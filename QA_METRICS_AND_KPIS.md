@@ -15,11 +15,19 @@ This document defines the core Quality Assurance metrics, their mathematical for
 ---
 
 ## 2. Metric Calculations
+
 ### 1. Requirement Coverage (RC)
 Measures the percentage of defined business requirements or Acceptance Criteria covered by executed test scenarios.
 
-* Formula: `> 95%`
-* Target:
+* Formula:
+---
+`(Executed Requirements / Total Planned Requirements) * 100`
+---
+  $$
+  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+  $$
+---
+* Target: `> 95%`
 * Example:
 
 ---
@@ -27,24 +35,24 @@ Measures the percentage of defined business requirements or Acceptance Criteria 
 ### 2.Defect Reopen Rate (DRR)
 Tracks the stability of developer fixes by measuring how many resolved defects failed QA verification.
 
-* Formula: `< 5%`
-* Target:
+* Formula:
+* Target: `< 5%`
 * Example:
 
 ---
 ### 3. Critical Escape Rate (CER)
 Measures the proportion of severe/blocking defects missed during internal QA testing that reached the Production environment.
 
-* Formula: ` 0%`
-* Target:
+* Formula: 
+* Target: ` 0%`
 * Example:
 
 ---
 ### 4. Automation Pass Rate (APR)
 Evaluates the health and reliability of automated test execution within continuous integration pipelines.
 
-* Formula: `> 98%`
-* Target:
+* Formula:
+* Target: `> 98%`
 * Example:
 
 ---
