@@ -4,7 +4,7 @@
 
 | Version | Date       | Author        | Change Description |
 |:--------|:-----------|:--------------|:-------------------|
-| 1.0.4   | 25.07.2026 | An. Gyuviyska | Added new section  |
+| 1.1.3   | 25.07.2026 | An. Gyuviyska | Added new section  |
 
 ---
 
@@ -27,6 +27,7 @@ This procedure applies to all project documentation created within the repositor
 
 | Status Name     | Stage Category | Description                                                                          |
 |:----------------|:---------------|:-------------------------------------------------------------------------------------|
+| **Backlog**     | Discovery      | Idea or requrement identified; logged for future prioritization and grooming.        |
 | **To do**       | Planning       | Task identified and queued; work has not started yet.                                |
 | **In Progress** | Drafting       | Initial draft is actively being researched and written.                              |
 | **In Review**   | Validation     | Draft is complete and under peer review for missing details, versioning, and layout. |
@@ -37,17 +38,23 @@ This procedure applies to all project documentation created within the repositor
 
 ## 5. Standard Operating Procedure (SOP)
 
-### Phase 1: Identification & Planning (`To do`)
+### Phase 1: Backlog & Backlog Grooming (`Backlog`)
+1. Identify missing documentation, technical debt, or future scope requirements.
+2. Create a Project Issue titled `[DOC] Name of Document` with initial context.
+3. Keep the item in the **Backlog** column until prioritized for an upcoming iteration.
+
+
+### Phase 2: dentification & Planning (`To do`)
 1. Identify missing documentation or required updates.
 2. Create a Project Issue titled `[DOC] Name of Document`.
 3. Assign the item to the **To Do** column on the GitHub Board.
 
-### Phase 2: Drafting & Authoring (`In Progress`)
+### Phase 3: Drafting & Authoring (`In Progress`)
 1. Move the issue to **In Progress**.
 2. Create or edit the target Markdown file in a feature branch.
 3. Ensure the standard header template is present (Title, Revision History, Scope, etc.).
 
-### Phase 3: Review & Quality Check (`In Review`)
+### Phase 4: Review & Quality Check (`In Review`)
 1. Open a Pull Request (PR) and move the issue to **In Review**.
 2. Perform the following checks:
     - **Versioning:** Ensure the Revision History table is updated.
@@ -55,10 +62,15 @@ This procedure applies to all project documentation created within the repositor
     - **Formatting:** Verify Markdown header hierarchy, tables, and code blocks.
     - **Language:** Ensure professional technical English is used throughout.
 
-### Phase 4: Approval & Publishing (`Approved` ➔ `Done`)
-1. Incorporate reviewer feedback and set status to **Approved**.
-2. Merge the Pull Request into the `main` branch.
-3. Close the Issue and move it to **Done** on the GitHub Board.
+### Phase 5: Approval (`Approved`)
+1. Address and incorporate all reviewer feedback.
+2. Re-request review if changes were made.
+3. Once all discussions are resolved, obtain official approval (PR status becomes **Approved**).
+
+### Phase 6: Publishing & Closure (`Done`)
+1. Merge the approved Pull Request into the `main` branch.
+2. Delete the temporary working branch.
+3. Close the associated Issue and update its board status to **Done**.
 
 ---
 
@@ -72,8 +84,8 @@ This procedure applies to all project documentation created within the repositor
 
 All documentation artifacts must strictly follow **Semantic Versioning (SemVer)** using the `MAJOR.MINOR.PATCH` format (e.g., `1.0.0`).
 
-| Version Type | Format  | When to Increment                                                                               | Example           |
-|:-------------|:--------|:------------------------------------------------------------------------------------------------|:------------------|
+| Version Type | Format  | When to Increment                                                                               | Example            |
+|:-------------|:--------|:------------------------------------------------------------------------------------------------|:-------------------|
 | **MAJOR**    | `X.0.0` | Complete overhaul of the document, process restructuring, or breaking changes.                  | `1.0.0` ➔ `2.0.0` |
 | **MINOR**    | `1.X.0` | Addition of new sections, new workflow statuses, or guidelines without removing existing logic. | `1.0.0` ➔ `1.1.0` |
 | **PATCH**    | `1.0.X` | Small fixes: typo corrections, translation of comments/text, layout fixes, or link updates.     | `1.0.0` ➔ `1.0.1` |
