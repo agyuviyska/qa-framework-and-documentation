@@ -10,7 +10,7 @@
 ---
 
 ## 1. Overview
-This document defines the core Quality Assurance metrics, their mathematical formula formulas, and the calculation methodologies used to assess product quality and test process efficiency throughout the Software Development Life Cycle (SDLC).
+This document defines the core Quality Assurance metrics, their formulas, and the calculation methodologies used to assess product quality and test process efficiency throughout the Software Development Life Cycle (SDLC).
 
 ---
 
@@ -44,7 +44,7 @@ Measures the proportion of severe/blocking defects missed during internal QA tes
 * Formula:
   $$\text{Critical Escape Rate (%)} = \left( \frac{\text{Production Critical Bugs}}{\text{Total Critical Bugs (Internal + Production)}} \right) \times 100$$
 
-* Target: ` 0%`
+* Target: `0%`
 * Example:  If 5 critical bugs were found in QA testing and 0 were reported by end-users on Production:
   $$\left( \frac{0}{5} \right) \times 100 = 0\% \quad \text{(Target Achieved)}$$
 
@@ -60,6 +60,12 @@ $$\text{Automation Pass Rate (%)} = \left( \frac{\text{Passed Automated Tests}}{
   $$\left( \frac{149}{150} \right) \times 100 = 99.33\% \quad \text{(Target Achieved)}$$
 
 ---
+---
+
 ## 3. Usage & Decision-Making
-* Release gate:
-* Process Improvement:
+
+* **Release Gate (Short Release):**  
+  The QA team uses these metrics to determine whether a release candidate is ready for deployment. If any metric falls below its target threshold, the release may be delayed until corrective actions are taken.
+
+* **Process Improvement (Long Release / Retrospective):**  
+  The QA team analyzes metric trends across multiple releases to identify systemic areas for process improvement. If a metric consistently falls below its target, the team investigates root causes and implements preventive measures to enhance overall quality and execution efficiency.
