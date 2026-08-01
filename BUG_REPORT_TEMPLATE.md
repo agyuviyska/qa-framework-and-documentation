@@ -8,8 +8,14 @@ assignees: ''
 
 ## Issue
 Brief summary of what the bug is and where it occurs.
+> **Note:** Keep descriptions factual and focus on essential details; avoid lengthy explanations.
 
-## Attachments
+#### Reproduction Steps
+1. Launch...
+2. Open...
+3. Observe...
+
+#### Attachments
 - Screenshots, recordings, or log files.
 
 ## Version
@@ -17,11 +23,6 @@ Brief summary of what the bug is and where it occurs.
 
 ## Environment
 [e.g. Test URL, OS, Browser, or Device details]
-
-## Reproduction Steps
-1. Launch...
-2. Open...
-3. Observe...
 
 ## Actual Result
 What actually happens.
