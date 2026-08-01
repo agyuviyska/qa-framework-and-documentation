@@ -6,21 +6,19 @@ labels: bug
 assignees: ''
 ---
 
-## Issue
+## Description & Reproduction Steps
 
 
-#### Reproduction Steps
-1. Launch...
-
-
-#### Attachments
-
-## Version
-
-## Environment
+1. Navigate to...(if needed)
 
 ## Actual Result
 
+
 ## Expected Result
+ 
+
+## Environment & Version
+ 
 
 ## Additional Notes
+ 
