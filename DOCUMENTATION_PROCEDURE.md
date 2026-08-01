@@ -18,7 +18,7 @@ This procedure applies to all project documentation created within the repositor
 - Business Requirements & User Stories
 - QA Process & Procedure Guidelines
 - Test Plans & Test Execution Strategy Templates
-- Realise Notes
+- Release Notes
 - System Architecture & README References
 
 ---
