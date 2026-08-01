@@ -6,9 +6,7 @@ labels: bug
 assignees: ''
 ---
 
-
-
-## Description & Reproduction Steps
+## Issue
 Brief summary of what the bug is and where it occurs.
 > **Note:** Keep descriptions factual and focus on essential details; avoid lengthy explanations.
 
@@ -34,4 +32,3 @@ What should happen according to the requirements/specs.
 
 ## Additional Notes
 Any extra details, tokens, or test account credentials.
-
