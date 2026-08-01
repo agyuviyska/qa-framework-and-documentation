@@ -11,7 +11,7 @@ assignees: ''
 
 #### Reproduction Steps
 1. Launch...
-2. 
+
 
 #### Attachments
 
