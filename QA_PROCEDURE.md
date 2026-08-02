@@ -5,7 +5,7 @@
 
 | Version | Date       | Author        | Change Description                             |
 |:--------|:-----------|:--------------|:-----------------------------------------------|
-| 1.1.4   | 25-07-2026 | An. Gyuviyska | Changed "version" structure; added new section |
+| 1.1.5   | 25-07-2026 | An. Gyuviyska | Changed "version" structure; added new section |
 
 ---
 
@@ -34,7 +34,16 @@ This procedure defines the standards, stages, and responsibilities within the Qu
 
 ---
 
-## 4. QUALITY KEY PERFORMANCE INDICATORS (KPIs)
+## 4. WORK ITEM TYPES & QA SCOPE
+
+| Work Item Type | Primary Focus | QA Responsibility & Scope |
+|:---|:---|:---|
+| **User Story** *(Parent)* | Business value & user functionality | Review Acceptance Criteria, design E2E scenarios, and perform final acceptance testing. Verify that all linked child tasks are complete before closing. |
+| **Technical Task** *(Child)* | Implementation details (DB, API, Refactoring) | Perform targeted component/technical testing (e.g., Postman for API endpoints, DB queries). Verifies individual technical criteria. |
+| **Bug Report** | Defect / Discrepancy from specs | Log detailed reproduction steps, attach logs/screenshots, verify fixes, and perform regression checks. |
+
+---
+## 5. QUALITY KEY PERFORMANCE INDICATORS (KPIs)
 
 | Metric (KPI)             | Target  | Description                                                                                                                              |
 |:-------------------------|:-------:|:-----------------------------------------------------------------------------------------------------------------------------------------|
