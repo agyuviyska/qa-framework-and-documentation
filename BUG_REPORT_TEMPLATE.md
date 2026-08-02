@@ -6,32 +6,23 @@ labels: bug
 assignees: ''
 ---
 
-
-
 ## Description & Reproduction Steps
-Brief summary of what the bug is and where it occurs.
+Brief context of the issue, followed by the exact steps to reproduce it:
 > **Note:** Keep descriptions factual and focus on essential details; avoid lengthy explanations.
-
-#### Reproduction Steps
-1. Launch...
-2. Open...
+1. Navigate to...
+2. Click on...
 3. Observe...
 
-#### Attachments
-- Screenshots, recordings, or log files.
-
-## Version
-[e.g. Game/App version or commit hash]
-
-## Environment
-[e.g. Test URL, OS, Browser, or Device details]
-
 ## Actual Result
-What actually happens.
+What actually happens after following the steps.
+*(Paste your screenshots, video recordings, or console logs here)*
 
 ## Expected Result
-What should happen according to the requirements/specs.
+What should happen according to the requirements.
+
+## Environment & Version
+- **Version / Commit:** [e.g. v1.0.4 or commit hash]
+- **Environment:** [e.g. Staging, Prod, Chrome v120, Windows 11]
 
 ## Additional Notes
-Any extra details, tokens, or test account credentials.
-
+Any extra context, logs, or test account credentials.
